@@ -64,13 +64,13 @@ const App = () => {
     <div>
       <input
         type="text"
-        value={input1}
+        value={name1}
         onChange={(e) => setInput1(e.target.value)}
         data-testid="input1"
       />
       <input
         type="text"
-        value={input2}
+        value={name2}
         onChange={(e) => setInput2(e.target.value)}
         data-testid="input2"
       />
